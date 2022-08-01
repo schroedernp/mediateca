@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mediateca Bookeze</title>
+        <link type="text/css" rel="stylesheet" href="recursos/style/style.css">
+    </head>
+    <body>
+        <h1>Registo de Aluguer</h1>
+        <form action="registoAluguer.php" method="post">
+            <p>Id_socio: <input type="text" name="id_socio" size="20" maxlength="20" required></p>
+            <p>Isbn: <input type="text" name="isbn" size="100" maxlength="100" required></p>
+            <p>Data Início: <input type="date" name="data_incio" size="100" maxlength="200" required></p>
+            <p>Data Fim: <input type="date" name="data_fim" size="100" maxlength="150" required></p>
+            <p>Valor: <input type="text" name="valor" size="50" maxlength="20" required></p>
+               
+            <input type="submit" value="Registar">
+            <input type="reset" value="limpar">
+            <br><br>
+            <a href="login2.php" target="_self">Voltar ao menu</a>
+        </form>
+
+    </body>
+</html>

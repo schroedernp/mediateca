@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mediateca Bookeze</title>
+        <link type="text/css" rel="stylesheet" href="recursos/style/style.css">
+    </head>
+    <body>
+        <h1>Registo de Livros</h1>
+        <form action="registoLivros.php" method="post" enctype="multipart/form-data">
+            <p>Isbn: <input type="text" name="isbn" size="20" maxlength="20" required></p>
+            <p>Título: <input type="text" name="titulo" size="100" maxlength="100" required></p>
+            Descrição:<br>
+                <textarea cols="80" rows="5" name="descricao" required></textarea></textarea><br/><br/>
+            <p>Autor: <input type="text" name="autor" size="100" maxlength="150" required></p>
+            <p>N Páginas: <input type="text" name="n_pag" size="50" maxlength="20" required></p>
+            <p>Preço: <input type="text" name="preco_semana" size="50" maxlength="20" required></p>
+            <p>Capa: <br>
+                <input type="file" name="ficheiro"><br><br>        
+            <input type="submit" value="Registar">
+            <input type="reset" value="limpar">
+            <br><br>
+            <a href="index.html" target="_self">Voltar ao menu</a>
+        </form>
+
+    </body>
+</html>

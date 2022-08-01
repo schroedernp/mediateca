@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mediateca</title>
+        <link type="text/css" rel="stylesheet" href="recursos/style/style.css">
+    </head>
+    <body>
+        <h1>Registo de Sócios</h1>
+        <form action="registo.php" method="post" enctype="multipart/form-data">
+            <p>Nick: <input type="text" name="nick" size="20" maxlength="20" required></p>
+            <p>Senha: <input type="password" name="senha" size="20" maxlength="20" required></p>
+            <p>Nome: <input type="text" name="nome" size="100" maxlength="100" required></p>
+            <p>E-mail: <input type="text" name="email" size="50" maxlength="50" required></p>
+            <p>Capa: <br>
+                <input type="file" name="ficheiro"><br><br>        
+            <input type="submit" value="Registar">
+            <input type="reset" value="limpar">
+            <br><br>
+            <a href="index.html" target="_self">Voltar ao menu</a>
+        </form>
+
+    </body>
+</html>
